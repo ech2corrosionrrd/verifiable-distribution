@@ -1,0 +1,27 @@
+{
+  "name": "verifiable-distribution",
+  "version": "0.1.0",
+  "description": "Deterministic, publicly verifiable reward snapshots for Solana communities.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ech2corrosionrrd/verifiable-distribution.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "verify-digest": "bin/verify-digest.mjs"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "verify:season1": "node bin/verify-digest.mjs --csv examples/season1/season-1.csv --meta examples/season1/season-1-meta.json --expect sha256:27fc2894f494f598bca5542462c9ba58932711c4538703311ecf8eb9b67670ec"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "src",
+    "bin",
+    "docs",
+    "examples"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label": "Season 1: The Gathering",
+  "totalPool": null,
+  "totalPoints": 611617,
+  "digest": "sha256:27fc2894f494f598bca5542462c9ba58932711c4538703311ecf8eb9b67670ec",
+  "digestVersion": "gremlin-airdrop-v5",
+  "weights": {
+    "xp": 2,
+    "days": 1,
+    "quests": 50,
+    "xpLuck": 0.25,
+    "genesis": 500,
+    "achievements": 25,
+    "xpAchievement": 0.3
+  }
+}
